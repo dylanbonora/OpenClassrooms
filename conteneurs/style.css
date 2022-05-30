@@ -1,7 +1,7 @@
 #conteneur
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .element1
@@ -21,3 +21,4 @@
     background-color: orange;
     width: 50%;
 }
+
