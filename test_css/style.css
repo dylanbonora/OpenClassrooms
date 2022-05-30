@@ -1,0 +1,115 @@
+/*.salutations, em
+{
+    color: blue;
+}*/
+
+/*p
+{
+    font-size: 1em;
+}*/
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p
+{
+    font-family: 'ambleregular', "Arial, sans-serif;";
+    font-size: large;
+    text-align: justify;
+    /*border-radius: 10px;*/
+    /*border-left: 2px solid black;*/
+    /*box-shadow: 6px 6px 6px black inset;*/
+
+    /*clear:right;*/
+}
+
+h1
+{
+    text-align: center;
+    /*border: solid;*/
+    /*border: 3px blue dashed;*/
+}
+
+h2,h3
+{
+    text-align: left;
+}
+
+body
+{
+    /*background-image: url("images/arsenal.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+    /*opacity: 0.3;*/*/
+
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   /*color: red;*/
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: red;
+}
+
+/*/*a:active /* Quand le visiteur clique sur le lien */
+/*{
+    color: green;
+    background-color: #FFCC66;
+}*/
+
+/*a:visited
+{
+    color: #88888
+    color: #AAA;
+}*/
+
+.logo
+{
+    margin-left: auto;
+    display: block;
+    height :50px;
+    width : 50px;
+    float: right;
+}
+
+.image
+{
+    float: left;
+    margin-left: auto;
+    display: block;
+    width : 220px;
+    height : 124px;
+}
+
+.newcastle
+{
+    float: right;
+    margin-left: auto;
+    display: block;
+    width : 220px;
+    height : 145px;
+}
+
+.match
+{
+    float: left;
+    margin-left: auto;
+    display: block;
+    width : 220px;
+    height : 145px;
+}
+

@@ -1,0 +1,23 @@
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.element1
+{
+    background-color: blue;
+    width: 50%;
+}
+
+.element2
+{
+    background-color: green;
+    width: 50%;
+}
+
+.element3
+{
+    background-color: orange;
+    width: 50%;
+}
