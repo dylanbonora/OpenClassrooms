@@ -1,7 +1,13 @@
 
+#topsection
+{
+    /*On place le header et le menu côte à côte*/
+    display:flex;
+}
 
 ul
-{
+{   
+    /*On enlève les puces*/
     list-style-type: none;
 }
 
