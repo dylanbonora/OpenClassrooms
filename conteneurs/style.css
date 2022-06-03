@@ -1,13 +1,24 @@
 #conteneur
 {
     display: flex;
-    flex-direction: column-reverse;
+     /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    height: 350px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+    margin: auto;  
 }
 
-.element1
+/* .element
+{
+    background-color: red;
+    width: 50%;
+} */
+
+/* .element1
 {
     background-color: blue;
     width: 50%;
+    
 }
 
 .element2
@@ -20,5 +31,18 @@
 {
     background-color: orange;
     width: 50%;
+} */
+
+.element1:nth-child(1)
+{
+    order: 3;
+}
+.element2:nth-child(2)
+{
+    order: 1;
+}
+.element3:nth-child(3)
+{
+    order: 2;
 }
 
