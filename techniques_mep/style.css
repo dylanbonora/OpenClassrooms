@@ -39,19 +39,3 @@ section
 {
     display: none;
 } */
-
-element
-{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: 1;
-}
-
-element2
-{
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    z-index: 2;
-}
