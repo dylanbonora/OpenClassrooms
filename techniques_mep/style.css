@@ -1,18 +1,57 @@
 nav
 {
-    float: left;
-    width: 150px;
+    /* float: left;  */
+    display: inline-block; /*les marges et les intercalaires supérieurs et inférieurs sont respectés
+    /* width: 150px; */
     border: 1px solid black;
+    vertical-align: top;
+
+    /* position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1; */
+
+    /* right: 30px;
+    bottom: 30px;
+    z-index: 2; */
+
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    
 }
 
 section
-{
-    /* border: 1px solid blue; */
-    margin-left: 170px;
-    border : 1px solid blue;
-}
+{   
+    display: inline-block;
+    border: 1px solid blue;
+    vertical-align: top; 
+    /* margin-left: 170px; */
+    /* border : 1px solid blue; */
+} 
 
-a
+/* a
 {
     display: block;
+}
+
+.section
+{
+    display: none;
+} */
+
+element
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+element2
+{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 2;
 }
